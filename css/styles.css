@@ -1,0 +1,372 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+/* navbar */
+
+#hero {
+    width: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.logo {
+    height: 57px;
+    width: 35px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: black;
+    padding-top: 0;
+    border-radius: 30px;
+    color: white;
+    height: 45px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.logon {
+    display: flex;
+    align-items: center;
+      
+}
+
+nav .logon a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.login {
+    padding-right: 20px;
+}
+
+
+
+
+/* Section One */
+
+#main-page {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.main-text {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.subtext {
+    border: solid 2.5px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.img-one {
+    transform: rotate(5deg);
+    width: 100%;
+    z-index: -1;
+    border: solid 2.5px;
+}
+
+h1 {
+    font-weight: 900px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 400%;   
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+/* Section Two */
+
+#second-section {
+    display: flex;
+    padding: 0 30px;
+    position: relative;  
+}
+
+
+.img-two {
+    position: absolute;
+    bottom: -700px;
+    transform: rotate(-5deg);
+    z-index: 0;
+    border: solid 2.5px;
+    margin-left: 100px;
+        
+}
+
+.img-three {
+    position: absolute;
+    left: 70%;
+    top: 80%;
+    margin-top: 200px;
+}
+
+hr {
+    border-top: 0;
+    border-bottom: 2px solid black;
+    margin-top: 700px;
+    width: 100%;
+    
+}
+
+
+
+/* Third Section */
+
+#third-section {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.mid-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.hr2 {
+    border-top: 0;
+    border-bottom: 2px solid black;
+    margin: 0 0;
+    width: 100%;
+    padding: 0px;
+}
+
+
+/* Features */
+
+.features {
+    display: grid;
+    grid-template-columns: 50% 0% 50%;
+    padding: 0px;            
+}
+
+
+
+.subtext-features {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 2px black;
+    background-color: white;
+    margin-bottom: 20px;     
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 2.5rem;
+}
+
+.f-text {
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.f-img {
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+
+/* Crowd Funding */
+
+.crowd-funding {
+    align-items: center;
+    background-color: #FFF804;
+    padding: 100px;
+}
+
+
+/* Vertical Line */
+
+.vl {
+    border-left: 2.5px solid black;
+    height: inherit;
+    padding: 0px;
+    z-index: 1;
+  }
+
+/* Press */
+
+.Press {
+    align-items: center;
+    background-color: #81836C;
+    padding: 100px;
+
+}
+
+.Press .f-img {
+    margin-top: 102px;
+}
+
+.ft-text {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.bg-message {
+    font-size: 20px;
+    width: 65%;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.bg-link {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.bg-link a {
+    color: white;
+}
+
+/* Fourth Section */
+
+#fourth-section {
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.service {
+    padding: 150px 40px 40px 40px;
+    align-items: center;
+    width: 50%;
+
+}
+
+.subtext-service {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 2px black;
+    background-color: white;
+    margin-bottom: 20px; 
+}
+
+.service h2 {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 3rem;
+}
+
+.service-img {
+    transform: rotate(-5deg);
+    border: 2px solid black;
+    margin: 50px;
+
+}
+
+.s-text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.service a button {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.options {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 100px;
+    width: 50%;
+    
+}
+
+.op-main {
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    width: 600px;
+    color: white;
+    background-color: black;
+}
+
+.op-sub {
+    border: 2px solid black;
+    border-bottom: 0px;
+    padding: 25px;
+    width: 600px;
+}
+
+.op-sub-last {
+    border: 2px solid black;
+    padding: 25px;
+    width: 600px;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
