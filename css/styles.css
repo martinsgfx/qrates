@@ -21,7 +21,7 @@ nav {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 20px;
-    
+
 }
 
 nav ul li {
@@ -54,13 +54,13 @@ button {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     cursor: pointer;
-    
+
 }
 
 .logon {
     display: flex;
     align-items: center;
-      
+
 }
 
 nav .logon a {
@@ -110,7 +110,7 @@ nav .logon a {
 h1 {
     font-weight: 900px;
     font-family: 'Roboto', sans-serif;
-    font-size: 400%;   
+    font-size: 400%;
 }
 
 h3 {
@@ -125,7 +125,7 @@ h3 {
 #second-section {
     display: flex;
     padding: 0 30px;
-    position: relative;  
+    position: relative;
 }
 
 
@@ -136,7 +136,7 @@ h3 {
     z-index: 0;
     border: solid 2.5px;
     margin-left: 100px;
-        
+
 }
 
 .img-three {
@@ -151,7 +151,7 @@ hr {
     border-bottom: 2px solid black;
     margin-top: 700px;
     width: 100%;
-    
+
 }
 
 
@@ -161,7 +161,7 @@ hr {
 #third-section {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    
+
 }
 
 .mid-text {
@@ -185,7 +185,7 @@ hr {
 .features {
     display: grid;
     grid-template-columns: 50% 0% 50%;
-    padding: 0px;            
+    padding: 0px;
 }
 
 
@@ -198,12 +198,13 @@ hr {
     padding: 5px;
     border: solid 2px black;
     background-color: white;
-    margin-bottom: 20px;     
+    margin-bottom: 20px;
 }
 
 h2 {
     margin-top: 0px;
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .f-text {
@@ -234,7 +235,7 @@ h2 {
     height: inherit;
     padding: 0px;
     z-index: 1;
-  }
+}
 
 /* Press */
 
@@ -279,10 +280,13 @@ h2 {
 #fourth-section {
     background-color: white;
     display: flex;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    
+
 }
 
 .service {
@@ -300,7 +304,7 @@ h2 {
     padding: 5px;
     border: solid 2px black;
     background-color: white;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .service h2 {
@@ -335,7 +339,7 @@ h2 {
     font-weight: bold;
     padding-top: 100px;
     width: 50%;
-    
+
 }
 
 .op-main {
@@ -373,8 +377,64 @@ h2 {
 
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'48
+}
+
+/* Fifth Section */
+
+#fifth-section {
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black ;
+
+}
+
+.left-5 {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.store-logo {
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.retail-network {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 2px black;
+    background-color: white;
+    margin-bottom: 20px;
+    color: black;    
+}
+
+.distro-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+.right-5 {
+    width: 50%;
+    background-color: #E280FF;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.support-img {
+    width: 100%;
+    height: 50%;
+    border: 2px solid black;
+    margin-bottom: 32px;
+}
