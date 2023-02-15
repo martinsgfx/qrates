@@ -428,13 +428,58 @@ h2 {
     width: 50%;
     background-color: #E280FF;
     color: black;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
 }
 
 .support-img {
-    width: 100%;
+    width: 90%;
     height: 50%;
     border: 2px solid black;
+    margin-top: 41px;
     margin-bottom: 32px;
 }
+
+/* Sixth Section */
+
+#sixth-section {
+    text-align: center;
+    padding: 100px;
+}
+
+#sixth-section button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
+/* Seventh Section */
+
+#seventh-section {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.image-one-box {
+    width: 50%;
+}
+
+.img-one-box {
+    width: 100%;
+}
+
+.image-two-box {
+    display: flex;
+    
+    
+
+}
+
+.item1 {
+    background-color: red;
+}
+
+
+
