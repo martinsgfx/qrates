@@ -354,12 +354,20 @@ h2 {
     border-bottom: 0px;
     padding: 25px;
     width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+    padding-top: 2px;
 }
 
 .op-sub-last {
     border: 2px solid black;
     padding: 25px;
     width: 600px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
