@@ -457,25 +457,32 @@ h2 {
 /* Seventh Section */
 
 #seventh-section {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    display: flex;
+    display: flex;    
 }
 
-.image-one-box {
+.section-7-image-1 {
     width: 50%;
+    flex: 1;
 }
 
-.img-one-box {
-    width: 100%;
+.section-7-image-1 img {
+    width: 100%;    
 }
 
-.image-two-box {
+.section-7-image-2 {
     display: flex;
-      
-
+    flex: 1;
+    width: 50%;
+   
 }
 
+.wrap-section-one {
+    flex: 1;
+}
+
+.wrap-section-two {
+    flex: 1;
+}
 
 
 
